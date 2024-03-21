@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Food Website</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+ 
+
+<body>
+
+    <header class="sticky">
+        
+                    <a href="index.html" class="logo">
+                        <i class="fa-solid fa-utensils"> </i>Alpha <span>Resturant</span></a>
+                     <ul class="navlist">
+                       <li> <a href="#home" class="active">Home</a></li>
+                       <li> <a href="#about">About</a></li>
+                       <li> <a href="#menu">Menu</a></li>
+                       <li> <a href="#gallery">Gallery</a></li>
+                       <li> <a href="#review">Reviews</a></li>
+                       <li> <a href="#contact">Contact</a></li>
+                    </ul>
+                
+                <div class="nav-icons">
+                    <!-- <input type="search" class="search" placeholder="Search Here.."> -->
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <a href="javascript:void(0)" class="cart">
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        <span class="cart-number"></span> </a>
+                        <!-- <a href="javascript:void(0)" class="user">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <span class="cart-number"></span> </a> -->
+                            <div id="menu-icon" class="fa fa-bars">
+
+                </div>
+                
+     </header>
+
+<section class="home" id="home">
+    <div class="home-text">
+        
+     <h1 class="head">Welcome,To Our <span>Alpha</span> Restaurant<br> </h1>
+     <p class="para1">From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food, Indian Resaurant covers it all. Explore menus, and millions of restaurant photos and reviews from users just like you, to find your next great meal.</p>
+
+     <a href="#menu" class="btn1"> Check Menu<i class="fa-solid fa-square-right"></i></a>
+     <a href="#book" class="btn2"> Book Table</a>
+    
+    </div>
+     <div class="home-img">
+       
+        <img class="img" src=".\img\bg1.png" width="250px" alt="briyani" >
+       
+    </div>
+</section>
+
+ <section class="container">
+    <div class="container-box">
+        <img src="img/c1.png" alt="">
+        <h3>8:00 AM - 11:00 PM</h3>
+        <a href="#">Working Hours</a>
+    </div>
+    <div class="container-box">
+        <img src="img/c2.png" alt="">
+        <h3>Alpha Resaurant</h3>
+        <a href="#contact">Get Direction</a>
+    </div>
+    <div class="container-box">
+        <img src="img/c3.png" alt="">
+        <h3>+91 67895 4321</h3>
+        <a href="#">Call Us Now</a>
+    </div>
+ </section>
+
+
+<!--About US-->
+<div class="container-xxl py-5 " id="about">
+    <div class="aboutcontainer imgabout">
+    <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+            <div class="row g-3">
+                <div class="col-6 text-start">
+                    <img  class="img-gluid rounded w-100 wow zoomIn" src="./img/about1.jpg"  alt="">
+                </div>
+                <div class="col-6 text-start">
+                    <img  class="img-gluid rounded w-75 wow zoomIn" src="./img/about2.jpg" style="margin-top:25%" alt="">
+                </div>
+                <div class="col-6 text-end">
+                    <img  class="img-gluid rounded w-75 wow zoomIn" src="./img/about3.jpg" alt="">
+                </div>
+                <div class="col-6 text-end">
+                    <img  class="img-gluid rounded w-100 wow zoomIn" src="./img/about1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6 contentabout">
+            <h2 class="section-title ff-secondary text-start fw-normal exp" style="color: #ff9f0d">About Us</h2>
+             <!-- <h2 class="mb-3">Discover Our Restaurant Story</h1> -->
+            <p class="mb-4" style="font-size:var(--p-font);">We're one team:No problem is too big to solve if we stay hungry for innovation. The bigger the idea, the better.</p>
+                <p class="mb-4" style="font-size:var(--p-font);">We're driven by purpose:We deliver results with integrity. Challenging work is rewarding work, and accomplishing our goals requires a mix of grit, resilience, and humor.</p>
+                    <p class="mb-4" style="font-size:var(--p-font);">We embrace a hospitality mindset: Empathy is our default. We strive to make everyone from employees and customers to partners and beyond feel like they belong..</p>
+            <div class="row g-4 mb-4">
+                <div class="col-lg-6">
+   
+             <div class="d-flex align-items-center border-start border-5 px-3" style="color: #ff9f0d" >
+                        <h1 class="flex-shrink-0 display-5 mb-0 exp" style="color: #ff9f0d">10</h1>
+                        <div class="ps-4">
+                            <p class="mb-0">Years Of</p>
+                        <h6 class="text-uppercase mb-0">Experience</h6>
+                            
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                        <div class="d-flex align-items-center border-start border-5 px-3 " style="color: #ff9f0d" >
+                            <h1 class="flex-shrink-0 display-5 mb-0 chefs" style="color: #ff9f0d">30</h1>
+                        <div class="ps-4"> 
+                            <p class="mb-0">Popular</p>
+                            <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                
+                        </div>
+
+                        </div>
+                </div>
+                
+            </div>
+                    
+
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+</div>
+
+
+ <!--Menu -->
+ <div class="menu" id="menu">
+    <h1>Our <span>Menu</span></h1>
+
+    <div class="menu-box">
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/idly.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>idly</h2>
+                <p>Idly is a healthy breakfast that is served with delicious chutney</p>
+                <h3>Rs.50.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+
+        <!--dosai-2-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/dosai.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Dosa</h2>
+                <p>Dosa is crispy and crepe street food</p>
+                <h3>Rs.40.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        <!--briyani-3-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/biriyani.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Biryani</h2>
+                <p>Life is better with a plate of veg biryani. </p>
+                <h3>Rs.120.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        
+        <!--paneer masala-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/paneer masala.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Paneer</h2>
+                <p>Flavorful bites of paneer joy.</p>
+                <h3>Rs.200.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        <!--chapati-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/chappathy.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>chapati</h2>
+                <p>A day without roti is like a day without sunshine.</p>
+                <h3>Rs.60.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        <!--pasta-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/pasta.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Pasta</h2>
+                <p>Every pasta dish is a work of heart and noodles.</p>
+                <h3>Rs.100.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        <!--Burger-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/burger.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Burger</h2>
+                <p>Burger cravings on full blast.</p>
+                <h3>Rs.150.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        <!--Pizza-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/pizzaajpg.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Pizza</h2>
+                <p>Happiness is a slice of pizza. </p>
+                <h3>Rs.200.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        <!--Drinks-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/drinks.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Drinks</h2>
+                <p> Sip and chill,Cold drinks, warm smiles. </p>
+                <h3>Rs.80.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+        <!--Sandwich-->
+
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/sandwich.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Sandwich</h2>
+                <p>A sandwich is a meal between two slices of bread. </p>
+                <h3>Rs.150.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+
+        <!--Noodles-->
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/noodles.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+
+            <div class="menu_info">
+                <h2>Noodles</h2>
+                <p>All I need is noodles and good company. </p>
+                <h3>Rs.160.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+
+        <!--Icecream-->
+        <div class="menu_card">
+            <div class="menu_images">
+                <img src="./menu/icecream.jpg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div class="menu_info">
+                <h2>Ice-cream</h2>
+                <p>I'm here for a good time, and by 'good time,' I mean ice cream time.</p>
+                <h3>Rs.80.00</h3>
+                <div class="menu_icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <a href="#" class="menu_btn">Order Now</a>
+            </div>  
+        </div>
+    </div> 
+</div>
+
+ <!--Our Team-->
+ <div class="team">
+    <h1> Our <span>Team</span></h1>
+
+    <div class="team_box">
+        <div class="profile">
+            <img src="./menu/chef1.png">
+
+            <div class="info">
+                <h2 class="name">chef-joel-robuchon</h2>
+                <p class="bio"></p>
+
+                <div class="team_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <!--chef-2-->
+        <div class="profile">
+            <img src="./menu/chef33.jpg">
+
+            <div class="info">
+                <h2 class="name">Chef-pierre</h2>
+                <p class="bio">Lorem ipsum dolor consectetur adipisicing elit.</p>
+
+                <div class="tram_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+        </div>
+        <!--chef-3-->
+        <div class="profile">
+            <img src="./menu/chef1.jpg">
+
+            <div class="info">
+                <h2 class="name">Chef-yannick</h2>
+                <p class="bio">Lorem ipsum dolor consectetur adipisicing elit.</p>
+
+                <div class="tram_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+        </div>
+        <!--chef4-->
+        <div class="profile">
+            <img src="./menu/chef-4.jpg">
+
+            <div class="info">
+                <h2 class="name">Chef gagnaire</h2>
+                <p class="bio">Lorem ipsum dolor consectetur adipisicing elit.</p>
+
+                <div class="tram_icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+<!--Reviews-->
+<section class="review" id="review">
+    <div class="middle-text">
+        <h1>Our <span>Customer</span></h1>
+        <h2>Clients Review About Our Food</h2>
+        </div>
+        <div class="review-content">
+            <div class="box">
+                <p>It’s a great experience. The ambiance is very welcoming and charming. Staff are extremely knowledgeable and make great recommendations.</p>
+                <div class="in-box">
+                    <div class="bx-img">
+                        <img src="img/rating1.jpg" alt="">
+                    </div>
+                    <div class="bxx-text">
+                        <h4>irfan</h4>
+                        <h5>Food Vlogger</h5>
+                    </div>
+                    <div class="ratings">
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>Hospitable hosts, delicious dishes, beautiful presentation, wonderful dessert. I recommend to everyone! </p>
+                <div class="in-box">
+                    <div class="bx-img">
+                        <img src="img/rating2.jpg" width="20px" height="20px" alt="">
+                    </div>
+                    <div class="bxx-text">
+                        <h4>Sara </h4>
+                        <h5>Food Vlogger</h5>
+                    </div>
+                    <div class="ratings">
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star-half-o" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>It can be expensive but worth it and they do different deals on different nights. Highly recommended.</p>
+                <div class="in-box">
+                    <div class="bx-img">
+                        <img src="img/rating3.jpg" alt="">
+                    </div>
+                    <div class="bxx-text">
+                        <h4>Mugesh</h4>
+                        <h5>Food Vlogger</h5>
+                    </div>
+                    <div class="ratings">
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+        
+   <!-- gallery-->
+   <div class="gallery" id="gallery">
+    <h1>Our <span>Gallery</span></h1>
+
+
+
+    <div class="main-gallery">
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/g-3.jpg" alt="">
+
+            </div>
+        </div>
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/g-1.jpg" alt="">
+
+            </div>
+        </div>
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/g-2.jpg" alt="">
+
+            </div>
+        </div>
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/ga-6.jpg" alt="">
+
+            </div>
+        </div>
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/ga-4.jpg" alt="">
+
+            </div>
+        </div>
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/ga-5.jpg" alt="">
+
+            </div>
+        </div>
+
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/ga-7.avif" alt="">
+
+            </div>
+        </div>
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/ga-8.avif" alt="">
+
+            </div>
+        </div>
+
+        <div class="inner-gallery">
+            <div class="gallery-image">
+                <img src="./menu/ga-9.avif" alt="">
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!---Booking Table-->
+<section class="reservation" id="book">
+    <div class="section_container reservation_container exp">
+        <h3>Reservation</h3>
+        <h2 class="section_header chefs">BOOK YOUR TABLE</h2>
+        <form action="/">
+            <input type="text" placeholder="NAME" />
+            <input type="email" placeholder="EMAIL" />
+            <input type="date" placeholder="DATE" />
+            <input type="time" placeholder="TIME" />
+            <input type="number" placeholder="PEOPLE" />
+            <button class="btn" type="submit">FIND TABLE</button>
+        </form>
+    </div>
+
+</section>
+<!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+
+    <div class="footer-top" style="background-image: url('./menu/footer.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <!-- <a href="" class="logo">ALPHA<span class="span">.</span></a> -->
+          <a href="index.html" class="logo">
+            <i class="fa-solid fa-utensils"> </i>Alpha <span>Resturant</span></a>
+
+          <p class="footer-text">
+            Sourcing the finest ingriedients to delivering unparalleled taste <br>in every bit.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-twitter"></i></a>
+                       
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Info </p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">+91 678954321</p>
+          </li>
+
+          <li>
+            <p class="footer-list-item">Info@YourGmail24.com</p>
+          </li>
+
+          <li>
+            <address class="footer-list-item">153 Food Street, Chennai, Tamil Nadu-621000</address>
+          </li>
+
+        </ul> </div>
+  
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-container">
+        <p class="copyright-text">
+          &copy; 2022 <a href="#" class="copyright-link">Alpha</a> All Rights Reserved.
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+<!-- Scroll arrow -->
+<a href="#" class="scroll">
+    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+</a>
+
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+ 
+
+
+</body>
+
+
+
+
+
+
+
+</html>
